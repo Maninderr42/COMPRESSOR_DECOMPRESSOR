@@ -1,4 +1,4 @@
-#Compressor-and-Decompressor-Project#-
+*Compressor-and-Decompressor-Project*-
 
 "Welcome to our Java Swing-based file compression and decompression application! Developed using the power of Java and the versatility of Swing, this project offers a seamless and intuitive user experience for managing your files.
 
