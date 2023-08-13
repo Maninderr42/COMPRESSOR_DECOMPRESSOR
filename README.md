@@ -10,9 +10,28 @@ Experience the convenience and simplicity of our Java Swing application as you n
 
 Discover the world of file compression and decompression with our Java Swing application, making file management a breeze!"
 
-# Project Requirements
-Java programming language
-Java is the number 1 programming language and development platform. It reduces costs, shortens development timeframes, drives innovation, and improves application services. With millions of developers running more than 51 billion Java Virtual Machines worldwide, Java continues to be the development platform of choice for enterprises and developers. You sholud have basic knowledge of coding and syntax formats of java for this project. And you should have JDK version 8 or newer installed on your machine.
+# Features
+File Selection: Users can choose any file from their local system for compression or decompression.
+Compression Process: Users can compress selected files using their chosen compression algorithm.
+Decompression Process: Users can decompress compressed files using the appropriate algorithm.
+Progress Tracking: The application provides a progress bar to track the compression or decompression process.
 
-Install JDK from oracle.com
-Download NetBeans IDE from netbeans.org
+# Project Requirements
+Java programming language 
+
+Java Development Kit (JDK) 8 or later installed on your system.
+
+Basic understanding of Java Swing for GUI development.
+
+# How to Use
+Clone or download the repository to your local machine.
+Open the project in your preferred Java IDE (e.g., Eclipse, IntelliJ IDEA).
+Build the project to ensure all dependencies are resolved.
+Run the MainApp.java class to launch the application.
+The application window will appear with options to choose a file, and perform compression or decompression.
+Select the file you want to compress or decompress by clicking the "Browse" button.
+Click the "Compress" button to start the compression process or the "Decompress" button to start the decompression process.
+The progress bar will indicate the progress of the compression or decompression process.
+Once the process is complete, a success message will be displayed, and the compressed or decompressed file will be saved in the same directory as the original file.
+
+
