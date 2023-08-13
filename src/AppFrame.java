@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
 import comp_decomp.compressor;
 import comp_decomp.decompressor;
@@ -18,10 +14,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JRootPane;
 
 
-/**
- *
- * @author ADMIN
- */
 public class AppFrame extends JFrame implements ActionListener {
     JButton compressButton;
     JButton decompressButton;
@@ -31,11 +23,9 @@ public class AppFrame extends JFrame implements ActionListener {
         this.setLayout(new FlowLayout());
 
         compressButton = new JButton("Select File to Compress");
-//        compressButton.setBounds(20, 100,200 ,30);
         compressButton.addActionListener(this);
 
         decompressButton = new JButton("Select File to Decompress");
-//        decompressButton.setBounds(250, 100,200 ,30);
         decompressButton.addActionListener(this);
 
 
